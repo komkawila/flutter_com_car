@@ -1,0 +1,41 @@
+name: flutter_app_com
+description: OLED Datalog
+publish_to: "none"
+version: 2.1.0+14
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  syncfusion_flutter_gauges: ^19.3.55
+  google_fonts: ^2.1.0
+  syncfusion_flutter_charts: ^19.3.55
+  flutter_blue: ^0.8.0
+  
+  provider: ^6.0.2
+  geolocator: ^8.0.1
+  wakelock: ^0.6.1+1
+  permission_handler: ^9.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/datalog-page/
+    - assets/images/setting-page/
+
+  fonts:
+     - family: Facon
+       fonts:
+         - asset: fonts/Facon.ttf
